@@ -1,0 +1,51 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<title><Basketball-counter-ziolkowski></Basketball-cunter-ziolkowski></title>
+    <link rel="stylesheet" href="./styles.css">
+
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+    </style>
+
+    
+  </head>
+  <body>
+
+  <div id="counter-body">
+
+      <div class='counter-column'>
+
+            <h1 class="title">HOME</h1>
+
+            <div class="score-num cursed-timer-font">
+            <h1 id="home-screen">0</h1>
+            </div>
+          
+          <button onclick = "addOne()" class ="increase-btn cursed-timer-font">+1</button>
+          <button onclick = "addTwo()" class="increase-btn cursed-timer-font">+2</button>
+          <button onclick = "addThree()" class="increase-btn cursed-timer-font">+3</button>
+            
+      </div>
+    
+        <div class='counter-column'>
+
+              <h1 class="title">GUEST</h1>
+
+              <div class="score-num cursed-timer-font">
+              <h1 id="guest-screen">0</h1>
+              </div>
+            
+            <button onclick = "part2addOne()" class="increase-btn cursed-timer-font">+1</button>
+            <button onclick = "part2addTwo()" class="increase-btn cursed-timer-font">+2</button>
+            <button onclick = "part2addThree()" class="increase-btn cursed-timer-font">+3</button>
+          
+        </div>
+        <button id='reset-btn' onclick="resetScore()" class='cursed-timer-font'>RESET SCORE</button>
+</div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
